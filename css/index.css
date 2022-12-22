@@ -1,0 +1,55 @@
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.header-container {
+    background-color: rgba(255, 255, 255, .9);
+    padding: 30px;
+}
+
+.header-container h1 {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header-container span {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.site-hero {
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+#navigation .navbar {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+#navigation .navbar li {
+    display: flex;
+    align-items: center;
+}
+
+#navigation .nav-link {
+    margin-top: 0;
+}
